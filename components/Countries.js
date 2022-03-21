@@ -32,6 +32,6 @@ export default function Countries() {
 const styles = StyleSheet.create({
     flatlistContainer: {
         width: Dimensions.get("window").width,
-        marginTop: 10
+        marginTop: 24
     }
 })
