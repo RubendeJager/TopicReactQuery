@@ -5,12 +5,12 @@ import Country from "./Country";
 LogBox.ignoreLogs(['Setting a timer']);
 
 const fetchCountries = async () => {
-    const result = await fetch("https://restcountries.com/v3.1/all");
-    return await result.json();
+    const response = await fetch("https://restcountries.com/v3.1/all");
+    return await response.json();
 }
 
 export default function Countries() {
-    const {data, status} = useQuery('countries', fetchCountries)
+    const {data, status} = useQuery('countries', fetchCountries);
 
     return <View>
         {status === 'loading' && (
