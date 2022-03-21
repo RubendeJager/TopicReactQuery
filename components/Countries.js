@@ -8,7 +8,7 @@ export default function Countries() {
     return <View>
 
         {/*<View style={styles.flatlistContainer}>
-            <FlatList data={data} renderItem={Country} keyExtractor={country => country.name.common}/>
+            <FlatList data={} renderItem={Country} keyExtractor={country => country.name.common}/>
         </View>*/}
     </View>
 }
