@@ -1,6 +1,5 @@
 import {FlatList, LogBox, Text, View, Dimensions, StyleSheet} from "react-native";
 import Country from "./Country";
-
 LogBox.ignoreLogs(['Setting a timer']);
 
 
@@ -11,7 +10,6 @@ export default function Countries() {
         {/*<View style={styles.flatlistContainer}>
             <FlatList data={data} renderItem={Country} keyExtractor={country => country.name.common}/>
         </View>*/}
-        )}
     </View>
 }
 
